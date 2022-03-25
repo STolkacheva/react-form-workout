@@ -1,3 +1,6 @@
+## Демо 
+https://stolkacheva.github.io/react-form-workout/
+
 Учёт тренировок
 ===
 
