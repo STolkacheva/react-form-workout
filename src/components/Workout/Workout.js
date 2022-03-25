@@ -1,5 +1,4 @@
 import React from "react";
-import "./Workout.css";
 import WorkoutAddForm from "./WorkoutAddForm.js";
 import WorkoutList from "./WorkoutList.js"
 import { useState } from "react";
