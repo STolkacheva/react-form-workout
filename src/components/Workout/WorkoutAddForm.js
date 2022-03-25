@@ -17,8 +17,7 @@ export default function WorkoutAddForm({ onAdd }) {
 
   const addWorkout = (event) => {
     event.preventDefault();
-    if (workout.km == 0 || !workout.date)
-        return;   
+    if (workout.km == 0 || !workout.date) return;
     onAdd(workout);
     setWorkout(WOinit);
   };
@@ -45,7 +44,9 @@ export default function WorkoutAddForm({ onAdd }) {
           onChange={changeWorkout}
         />
       </div>
-      <button className="workout-add" onClick={addWorkout}>OK</button>
+      <button className="workout-add" onClick={addWorkout}>
+        OK
+      </button>
     </form>
   );
 }

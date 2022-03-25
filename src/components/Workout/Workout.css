@@ -1,56 +1,56 @@
 .workout {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
 }
 .workout-input {
-    display: flex;
-    flex-flow: column; 
-    margin-right: 10px;
-    align-items: start;
+  display: flex;
+  flex-flow: column;
+  margin-right: 10px;
+  align-items: start;
 }
 .workout-title {
-    font-size: 14px;
-    margin: 10px;
+  font-size: 14px;
+  margin: 10px;
 }
 .workout-value {
-    box-sizing: border-box;
-    height: 50px;
-    width: 150px;
-    border: 1px solid #000000;    
-    border-radius: 5px;
-    color: rgb(83, 91, 105);
-    padding: 10px;
+  box-sizing: border-box;
+  height: 50px;
+  width: 150px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  color: rgb(83, 91, 105);
+  padding: 10px;
 }
 .workout-add {
-    height: 50px;
-    width: 50px;
-    margin-top: auto;
-    border: 1px solid #000000;    
-    border-radius: 5px;
+  height: 50px;
+  width: 50px;
+  margin-top: auto;
+  border: 1px solid #000000;
+  border-radius: 5px;
 }
 ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 .result {
-    width: 370px;
-    margin: auto;
+  width: 370px;
+  margin: auto;
 }
 .result-title {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .result-list {
-    border: 1px solid #000000;    
-    border-radius: 15px;
+  border: 1px solid #000000;
+  border-radius: 15px;
 }
 .result-item {
-    display: flex;
-    justify-content: space-between;
-    margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
 }
 button {
-    border: 0px; 
-    background: white;
+  border: 0px;
+  background: white;
 }
