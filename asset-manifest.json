@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-form-workout/static/css/main.1f39cd06.css",
+    "main.js": "/react-form-workout/static/js/main.909a84d0.js",
+    "index.html": "/react-form-workout/index.html",
+    "main.1f39cd06.css.map": "/react-form-workout/static/css/main.1f39cd06.css.map",
+    "main.909a84d0.js.map": "/react-form-workout/static/js/main.909a84d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f39cd06.css",
+    "static/js/main.909a84d0.js"
+  ]
+}
