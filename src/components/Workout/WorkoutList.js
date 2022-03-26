@@ -18,6 +18,7 @@ export default function WorkoutList({ list, onRemove, onEdit }) {
   };
 
   const onEditItem = (date) => {
+    onRemove(date);
     onEdit(date);
   };
 
@@ -35,8 +36,8 @@ export default function WorkoutList({ list, onRemove, onEdit }) {
               <label>{moment(o.date).format("DD.MM.YYYY")}</label>
               <label>{o.km}</label>
               <div>
-                <button onClick={() => onEditItem(o.date)}>✎</button>
-                <button onClick={() => onRemoveItem(o.date)}>🗙</button>
+                <button onClick={() => onEditItem(o)}>✎</button>
+                <button onClick={() => onRemoveItem(o)}>🗙</button>
               </div>
             </li>
           ))}

@@ -2,24 +2,16 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import "./Workout.css";
 
-const WOinit = {
-  date: "",
-  km: "",
-};
-
-export default function WorkoutAddForm({ onAdd }) {
-  const [workout, setWorkout] = useState(WOinit);
-
+export default function WorkoutAddForm({ workout, onAdd, onChange }) {
   const changeWorkout = (event) => {
     const { target } = event;
-    setWorkout((prev) => ({ ...prev, [target.name]: target.value }));
+    onChange(target);
   };
 
   const addWorkout = (event) => {
     event.preventDefault();
     if (workout.km == 0 || !workout.date) return;
     onAdd(workout);
-    setWorkout(WOinit);
   };
 
   return (
